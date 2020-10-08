@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/i1"
+        android:title="Website"
+        android:orderInCategory="10"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/i2"
+        android:orderInCategory="11"
+        android:title="Call Us" />
+    <item
+        android:id="@+id/i3"
+        android:orderInCategory="12"
+        android:title="Mail Us" />
+    <item
+        android:orderInCategory="9"
+        android:title="Mic"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:iconTint="@android:color/primary_text_dark_nodisable"
+        android:onClick="doOne"/>
+</menu>
